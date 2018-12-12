@@ -6,7 +6,7 @@ import re
 from datetime import datetime
 
 def get_cookie():
-   cookies = 'persistent=141459420%3A%3Az0dtsyu5y1qalkiw587bfkymqpttey; name=karlverik; last_login=2018-06-22T08:40:37Z; api_token=2e31deafa7bcfbf4f3b8e8c866f78d86; device_cookie=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Bhc3Nwb3J0LnR3aXRjaC50diIsInN1YiI6Imthcmx2ZXJpayIsImF1ZCI6ImJydXRlLWZvcmNlLXByb3RlY3Rpb24iLCJleHAiOjE1NDUyMDg4MzcsImlhdCI6MTUyOTY1NjgzNywibm9uY2UiOiJ6UVE3WWs1dnFHd2hWWFM0S2g1N25KQWlnX3FMbkNia1dfVXZWMy1VVEtrPSJ9.ahzjabdrMWVMLvpbjV9kvNH36aRGXfNl9EQjzISEWJCjy6Y9FbVK7lnP6UR4QBCFAezV75GvBqrWUdMBbfOmsw%3D%3D; twilight-user={%22authToken%22:%221g2v92syz7xcxadplbw2vx7zmowoe4%22%2C%22displayName%22:%22karlverik%22%2C%22id%22:%22141459420%22%2C%22login%22:%22karlverik%22%2C%22roles%22:{%22isStaff%22:false}%2C%22version%22:2}; language=zh-cn; unique_id=mspJeBtPxmA0QflOSWZeAUrbT1oRUfNH; auth-token=1g2v92syz7xcxadplbw2vx7zmowoe4; session_unique_id=bUl47yXmMtg2F9RuwmSxEWiqNDA0L3QO; server_session_id=e5ba6dee18364e58a95711707c70c572'
+   cookies = 'your cookies'
    cookies = cookies.split(';')
    cookie_dict = {}
    for i in cookies:
